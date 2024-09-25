@@ -75,7 +75,7 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 20px 1rem 0;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -99,7 +99,7 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -280,6 +280,10 @@ main {
 @media screen and (min-width: 370px) {
     #logo {
         font-size: 32px;
+    }
+
+    main {
+        margin-top: 45px;
     }
 }
 
